@@ -1,0 +1,18 @@
+{
+  "name": "dimal/lucky-number",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "DimAl\\LuckyNumber\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "DimAl",
+      "email": "dm@5al.ru"
+    }
+  ],
+  "require": {
+    "php": ">8.1"
+  }
+}
