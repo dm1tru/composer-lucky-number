@@ -6,7 +6,7 @@ namespace DimAl\LuckyNumber;
 
 class LuckyNumberChecker
 {
-    public function isLuckyNumber(int $num)
+    public function isLuckyNumber(int $num): bool
     {
         $exists_nums = [$num];
         while ($num != 1) {
