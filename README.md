@@ -2,7 +2,7 @@
 Проверка числа на счастливое
 
 ``` php
-use DimAl\LuckyNumber\LuckyNumberChecker as L;
+use DimAl\\LuckyNumber\\LuckyNumberChecker as L;
 $c = new L();
 $c->isLuckyNumber(11);
 ```
